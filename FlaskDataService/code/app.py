@@ -7,46 +7,52 @@ CORS(app)
 weather = {
     "data": [
     {
-        "day": "1/6/2019",
+        "day": "1/1/2021",
         "temperature": "23",
         "windspeed": "16",
         "event": "Sunny"
     },
     {
-        "day": "2/6/2019",
+        "day": "2/1/2021",
         "temperature": "21",
         "windspeed": "18",
-        "event": "Rainy"
+        "event": "Snowy"
     },
     {
-        "day": "3/6/2019",
-        "temperature": "31",
+        "day": "3/1/2021",
+        "temperature": "39",
         "windspeed": "12",
         "event": "Sunny"
     },
     {
-        "day": "4/6/2019",
-        "temperature": "5",
-        "windspeed": "28",
-        "event": "Snow"
-    },
-    {
-        "day": "5/6/2019",
-        "temperature": "17",
-        "windspeed": "18",
+        "day": "4/1/2021",
+        "temperature": "44",
+        "windspeed": "22",
         "event": "Rainy"
     },
     {
-        "day": "6/6/2019",
-        "temperature": "19",
-        "windspeed": "21",
-        "event": "Rainy"
-    },
-    {
-        "day": "7/6/2019",
-        "temperature": "28",
+        "day": "5/1/2021",
+        "temperature": "68",
         "windspeed": "14",
+        "event": "Rainy"
+    },
+    {
+        "day": "6/1/2021",
+        "temperature": "82",
+        "windspeed": "8",
         "event": "Sunny"
+    },
+    {
+        "day": "7/1/2021",
+        "temperature": "94",
+        "windspeed": "5",
+        "event": "Sunny"
+    }
+    {
+        "day": "8/1/2021",
+        "temperature": "89",
+        "windspeed": "10",
+        "event": "Cloudy"
     }
     ]
 }
