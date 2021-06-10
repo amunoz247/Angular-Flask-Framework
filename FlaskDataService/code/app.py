@@ -1,9 +1,21 @@
+#-----------------------------------------------------------------------------------------------------------------------
+#
+# Flask Backend Data Service
+#
+# Authors: Andrew Munoz
+# Date: April 28, 2021
+# Purpose: Send data to Angular front end application for data visualization.
+# Output: Data array using jsonify to serialize data in json format.
+#
+#-----------------------------------------------------------------------------------------------------------------------
+
 from flask import Flask, jsonify
 from flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
 
+# Array declaration that contains weather related data
 weather = {
     "data": [
     {
@@ -57,14 +69,17 @@ weather = {
     ]
 }
 
+# Route decorator tells Flask what URL should trigger the function
 @app.route('/', methods=['GET'])
 def hello():
 	return "Data Service is Running!"
 
 @app.route("/dataReport/", methods = ['GET'])
+# Function that returns data in json format
 def DataReport():
     global weather
     return jsonify([weather])
 
+# Run the program
 if __name__ == "__main__":
 	app.run(host ='0.0.0.0', debug = True)
