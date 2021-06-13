@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { RestService } from './rest.service';
+import { Data } from './Data';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularDataApp';
+
+  constructor(private rs : RestService){}
+
+  headers = ["day","temp","windspeed","event"]
+
+  data : Data[] = [];
+
+  ngOnInit()
+  {
+    this.rs.readWeather()
+    .subscribe((response) => {
+         this.data = response[0]["data"];
+      },
+      (error) => {
+         console.log("No Data Found" + error);
+      }
+    )
+  }
 }
