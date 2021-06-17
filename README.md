@@ -2,9 +2,10 @@
 
 ### Project Description
 
-* Program developed using Angular 11 and Flask
-* Application is a RESTful API Framework
+* Application is a RESTful API Framework.
 * Performs the HTTP GET Request to get data from the Flask-Python backend and outputs data to the Angular front end.
+* Program developed using Angular 12.0.4 and Flask.
+* Node 14.17.0 was used as it was the LTS version at the time of development.
   
 ### Run the Program Using Docker Compose
 
