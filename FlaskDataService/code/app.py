@@ -19,42 +19,42 @@ CORS(app)
 weather = {
     "data": [
     {
-        "day": "1/1/2021",
+        "date": "1/1/2021",
         "temperature": "23",
         "condition": "Sunny"
     },
     {
-        "day": "2/1/2021",
+        "date": "2/1/2021",
         "temperature": "21",
         "condition": "Snowy"
     },
     {
-        "day": "3/1/2021",
+        "date": "3/1/2021",
         "temperature": "39",
         "condition": "Sunny"
     },
     {
-        "day": "4/1/2021",
+        "date": "4/1/2021",
         "temperature": "44",
         "condition": "Rainy"
     },
     {
-        "day": "5/1/2021",
+        "date": "5/1/2021",
         "temperature": "68",
         "condition": "Rainy"
     },
     {
-        "day": "6/1/2021",
+        "date": "6/1/2021",
         "temperature": "82",
         "condition": "Sunny"
     },
     {
-        "day": "7/1/2021",
+        "date": "7/1/2021",
         "temperature": "94",
         "condition": "Sunny"
     },
     {
-        "day": "8/1/2021",
+        "date": "8/1/2021",
         "temperature": "89",
         "condition": "Cloudy"
     }

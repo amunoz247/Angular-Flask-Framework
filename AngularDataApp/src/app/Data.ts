@@ -1,13 +1,13 @@
 export class Data
 {
-	day:string;
-	temp:string;
+	date:string;
+	temperature:string;
 	condition:string;
 
-	constructor(day, temp, condition)
+	constructor(date, temperature, condition)
 	{
-		this.day = day;
-		this.temp = temp;
+		this.date = date;
+		this.temperature = temperature;
 		this.condition = condition;
 	}
 }

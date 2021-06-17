@@ -12,7 +12,7 @@ export class AppComponent {
 
   constructor(private rs : RestService){}
 
-  headers = ["day","temp","condition"]
+  headers = ["date","temperature","condition"]
 
   data : Data[] = [];
 

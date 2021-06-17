@@ -7,25 +7,25 @@ version: "3"
 services:
   flask_backend:
     build:
-      context: ./flask_server
+      context: ./FlaskDataService
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
         # volumes:
         # -in .:/code
         # - logvolume01:/var/log
-    network_mode: host
+    #network_mode: host
 
   angular_frontend:
     build:
-      context: ./angular_frontend
+      context: ./AngularDataApp
       dockerfile: Dockerfile
     ports:
       - "4200:4200"
       - '9898:9898'
         #    volumes:
         # - ../angular_frontend:/angular_frontend
-    network_mode: host
+    #network_mode: host
     command: ng serve --host 0.0.0.0 --port 4200 
 volumes:
   logvolume01: {}
