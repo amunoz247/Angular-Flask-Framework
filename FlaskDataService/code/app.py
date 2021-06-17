@@ -21,50 +21,42 @@ weather = {
     {
         "day": "1/1/2021",
         "temperature": "23",
-        "windspeed": "16",
-        "event": "Sunny"
+        "condition": "Sunny"
     },
     {
         "day": "2/1/2021",
         "temperature": "21",
-        "windspeed": "18",
-        "event": "Snowy"
+        "condition": "Snowy"
     },
     {
         "day": "3/1/2021",
         "temperature": "39",
-        "windspeed": "12",
-        "event": "Sunny"
+        "condition": "Sunny"
     },
     {
         "day": "4/1/2021",
         "temperature": "44",
-        "windspeed": "22",
-        "event": "Rainy"
+        "condition": "Rainy"
     },
     {
         "day": "5/1/2021",
         "temperature": "68",
-        "windspeed": "14",
-        "event": "Rainy"
+        "condition": "Rainy"
     },
     {
         "day": "6/1/2021",
         "temperature": "82",
-        "windspeed": "8",
-        "event": "Sunny"
+        "condition": "Sunny"
     },
     {
         "day": "7/1/2021",
         "temperature": "94",
-        "windspeed": "5",
-        "event": "Sunny"
+        "condition": "Sunny"
     }
     {
         "day": "8/1/2021",
         "temperature": "89",
-        "windspeed": "10",
-        "event": "Cloudy"
+        "condition": "Cloudy"
     }
     ]
 }
