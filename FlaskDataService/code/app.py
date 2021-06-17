@@ -52,7 +52,7 @@ weather = {
         "day": "7/1/2021",
         "temperature": "94",
         "condition": "Sunny"
-    }
+    },
     {
         "day": "8/1/2021",
         "temperature": "89",
