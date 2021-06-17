@@ -1,3 +1,4 @@
+// Class declaration that processes and stores data obtained from backend
 export class Data
 {
 	date:string;

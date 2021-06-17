@@ -12,12 +12,15 @@ export class AppComponent {
 
   constructor(private rs : RestService){}
 
+  // Headers for Data Table
   headers = ["date","temperature","condition"]
 
+  // Data array that contains weather variables
   data : Data[] = [];
 
   ngOnInit()
   {
+    // Rest Service function call to output data to the webpage
     this.rs.readWeather()
     .subscribe((response) => {
          this.data = response[0]["data"];
